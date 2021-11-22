@@ -6,10 +6,10 @@ To run the API correctly on your machine, follow the steps below!
 
 ## Summary
 
-1. [Installations](#-installations)
-1. [Startups](#-startups)
-1. [How it works](#-how-it-works)
-1. [Improvements](#-improvements)
+1. [Installations](#wrench-installations)
+1. [Startups](#rocket-startups)
+1. [How it works](#computer-how-it-works)
+1. [Improvements](#chart_with_upwards_trend-improvements)
 1. [Author](#-author)
 
 ## :wrench: Installations
