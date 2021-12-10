@@ -38,7 +38,7 @@ public class CharacterController {
             @ApiParam(name = "characterId", value = "${getCharacter.param.characterId}",
                     example = "1011793") @PathVariable("characterId") final Number characterId,
             @ApiParam(name = "languageCode", value = "${getCharacter.param.languageCode}",
-                    example = "pt") @RequestParam(name = "languageCode") final String languageCode)
+                    example = "pt") @RequestParam(name = "languageCode", defaultValue = "en") final String languageCode)
             throws Exception {
         Character character = marvelApiService.getCharacter(characterId, languageCode);
         if (character == null) {
